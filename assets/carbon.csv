@@ -1,0 +1,23 @@
+Item,Power (w),Usage per year (h),Energy use (kWh/ year),Annual cost ($),GHG emissions (kg CO2) / year
+Water heater,4000,450,1800,270,1260
+Electric furnace (home heating),6000,183,1098,164.7,769
+Air Conditioner,3500,200,700,105,490
+Space heater,1500,200,300,45,210
+"TV, 42"", plasma",270,1000,270,40.5,189
+"TV, 42"", LED",130,1000,130,19.5,91
+Cable TV box on standby,25,7700,193,28.88,135
+5 x CFL lightbulbs (18 W),90,1700,153,22.95,107
+Vaccuum cleaner,1400,20,28,4.2,20
+Clothes dryer,3000,78,234,35.1,164
+Hair Dryer,1500,57,86,12.83,60
+Fridge,180,1500,270,40.5,189
+Coffee Grinder,75,12,1,0.14,1
+Kettle,1500,48,72,10.8,50
+Oven,2400,73,175,26.28,123
+Toaster Oven,1200,60,72,10.8,50
+Cell phone 10 Wh battery*,10,365,4,0.55,3
+Desktop computer,100,1000,100,15,70
+Laptop 54 Wh battery*,54,180,10,1.46,7
+WiFi router,6,8760,53,7.88,37
+Game console PS4,115,1000,115,17.25,81
+Game console Xbox One,90,1000,90,13.5,63

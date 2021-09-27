@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 st.title('Carbon Footprint Tracker')
-data = pd.read_csv('carbon.csv')
+data = pd.read_csv('assets/carbon.csv')
 st.sidebar.title("Dashboard")
 
 st.sidebar.title("Visualization Selector")
