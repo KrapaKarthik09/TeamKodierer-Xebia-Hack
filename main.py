@@ -41,6 +41,9 @@ if submit:
         if select == 'Bar plot':
             fig = go.Figure(data=[go.Bar(name='Item', x=data['Energy use (kWh/ year)'][:], y=data['GHG emissions (kg CO2) / year'][:])])
             st.plotly_chart(fig)
+        if select == 'Bubble chat':
+            fig = go.Figure(data=[go.Scatter(x=['Energy use (kWh/ year)'],y=['GHG emissions (kg CO2) / year'],mode='markers',marker=dict(color=['red'],showscale=True))])
+            st.plotly_chart(fig)
         
     if select1 == 'Monthly':
         if select == 'Pie chart':
@@ -49,12 +52,19 @@ if submit:
         if select == 'Bar plot':
             fig = go.Figure(data=[go.Bar(name='Item', x=data['Energy use (kWh/ year)'][:], y=data['GHG emissions (kg CO2) / year'][:])])
             st.plotly_chart(fig)
+        if select == 'Bubble chat':
+            fig = go.Figure(data=[go.Scatter(x=['Energy use (kWh/ year)'],y=['GHG emissions (kg CO2) / year'],mode='markers',marker=dict(color=['red'],showscale=True))])
+            st.plotly_chart(fig)
+            
     if select1 == 'Yearly':
         if select == 'Pie chart':
             fig = px.pie(data, values=data['GHG emissions (kg CO2) / year'][:], names=data['Item'][:], title='Total Carbon emission')
             st.plotly_chart(fig)
         if select == 'Bar plot':
             fig = go.Figure(data=[go.Bar(name='Item', x=data['Energy use (kWh/ year)'][:], y=data['GHG emissions (kg CO2) / year'][:])])
+            st.plotly_chart(fig)
+        if select == 'Bubble chat':
+            fig = go.Figure(data=[go.Scatter(x=['Energy use (kWh/ year)'],y=['GHG emissions (kg CO2) / year'],mode='markers',marker=dict(color=['red'],showscale=True))])
             st.plotly_chart(fig)
     
     val=0
